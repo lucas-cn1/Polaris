@@ -30,14 +30,14 @@ export default function Header() {
       color="inherit"
       className=" flex h-16 flex-row items-center justify-between px-10"
     >
-      <h1 className=" flex items-center gap-2 text-3xl font-bold">
-        <Image
+      <h1 className=" flex items-center gap-2 font-bold text-2xl">
+        {/* <Image
           src={logo}
           alt="logo"
           width={40}
           height={40}
-        />
-        <Link href="/">Polaris</Link>
+        /> */}
+        <Link href="/">铭文工具</Link>
       </h1>
 
       <div className=" flex h-full items-center gap-4 text-xl font-semibold">
