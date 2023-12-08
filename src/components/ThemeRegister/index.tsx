@@ -1,7 +1,7 @@
 "use client";
 
 import { ThemeProvider } from "@emotion/react";
-import { Analytics } from "@mui/icons-material";
+import { Analytics, Padding } from "@mui/icons-material";
 import { Container, CssBaseline, PaletteMode } from "@mui/material";
 import { useCookieState } from "ahooks";
 import { ReactNode, useMemo, useState } from "react";
@@ -49,8 +49,6 @@ export default function ThemeRegister({ children, themeMode }: IAppProps) {
             maxWidth="xl"
             className=" mt-16"
           >
-            <Media />
-
             {children}
           </Container>
 

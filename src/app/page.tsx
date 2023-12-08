@@ -125,7 +125,7 @@ export default function Home() {
   }, [inscription, privateKeys, radio, toAddress]);
 
   return (
-    <div className=" flex flex-col gap-4">
+    <div className=" flex flex-col gap-4 pt-10">
       <div className=" flex flex-col gap-2">
         <span>链（选要打铭文的链）:</span>
         <TextField
