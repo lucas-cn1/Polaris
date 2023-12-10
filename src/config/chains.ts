@@ -40,8 +40,32 @@ export const shibarium = defineChain({
   },
 });
 
+
+export const ethw = defineChain({
+  id: 10001,
+  name: "ETHW Mainnet",
+  network: "ETHW Mainnet",
+  nativeCurrency: {
+    decimals: 18,
+    name: "ETHW",
+    symbol: "ETHW",
+  },
+  rpcUrls: {
+    default: {
+      http: ["https://mainnet.ethereumpow.org"],
+    },
+    public: {
+      http: ["https://mainnet.ethereumpow.org"],
+    },
+  },
+  blockExplorers: {
+    default: { name: "Explorer", url: "https://www.oklink.com/en/ethw" },
+  },
+});
+
 export const inscriptionChains = {
   eth: mainnet,
+  ethw,
   bsc,
   polygon,
   avalanche,
